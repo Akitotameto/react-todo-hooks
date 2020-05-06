@@ -5,7 +5,7 @@ type Props = {
     index: number
 }
 
-const Header: React.FC<Props> = (props) => {
+export const Header: React.SFC<Props> = (props) => {
 
     const pageList = () => {
         props.history.push('/')
@@ -22,5 +22,3 @@ const Header: React.FC<Props> = (props) => {
         </div>
     )
 }
-
-export default Header;
