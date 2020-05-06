@@ -5,9 +5,7 @@ type Props = {
     index: number
 }
 
-type State = {}
-
-const Header = (props: Props, state: State) => {
+const Header: React.FC<Props> = (props) => {
 
     const pageList = () => {
         props.history.push('/')
