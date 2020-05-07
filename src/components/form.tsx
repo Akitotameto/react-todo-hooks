@@ -1,12 +1,11 @@
 import React, { useState } from 'react'
 
-const Form: React.FC = () => {
+export const Form: React.FC = () => {
     const [title, setTitle] = useState<string>('')
     const [content, setContent] = useState<string>('')
     const [category, setCategory] = useState<number>(0)
     const send  = () => {
         console.log('テスト', title, content, category)
-
     }
 
     return(
@@ -24,5 +23,3 @@ const Form: React.FC = () => {
         </div>
     )
 }
-
-export default Form;

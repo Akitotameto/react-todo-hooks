@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Header } from  '../components/header'
-import Form from  '../components/form'
+import { Form } from  '../components/form'
 
 type Props = {
     history: any
